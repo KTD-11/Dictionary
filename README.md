@@ -1,0 +1,1 @@
+While it's not my biggest project, it's surley the most visually appealing, which is something that I am proud of, there's a bug relating to the audio player, which sometimes occurs whenever you press the play audio, it'll show an alert saying 'couldn't find the audio' and then the audio would play right after, but I couldn't be bothered to fix it.
