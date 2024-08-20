@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+::selection {
+    color: black;
+    background: white;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(media/dict-hero-bg.6fe21e1b.svg);
+    color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vmax;
+    text-align: center;
+}
+
+section{
+    background-color: #000000;
+    color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3vmax;
+}
+
+#header-animation{
+    animation: hAnimation 20s infinite alternate;
+}
+
+@keyframes hAnimation{
+
+    0%{
+        color:hsl(0, 100%, 50%);
+    }
+     
+    10%{
+        color :hsl(30, 100%, 50%);
+    }
+        
+    20%{
+        color:hsl(60, 100%, 50%);
+    }
+    
+    30%{
+        color: hsl(90, 100%, 50%);
+    }
+    
+    40%{
+        color: hsl(120, 100%, 50%);
+    }
+    
+    50%{
+        color: hsl(150, 100%, 50%);
+    }
+    
+    60%{
+        color: hsl(180, 100%, 50%);
+    }
+    
+    70%{
+        color: hsl(210, 100%, 50%);
+    }
+    
+    80%{
+        color: hsl(240, 100%, 50%);
+    }
+    
+    90%{
+        color: hsl(270, 100%, 50%);
+    }
+    
+    100%{
+        color: hsl(300, 100%, 50%);
+    }
+
+    /*
+    hsl(330, 100%, 50%)
+    hsl(360, 100%, 50%)
+    */
+}
+
+input[type=text]{
+    outline: none;
+    background-color: black;
+    border: rgb(168, 168, 168) solid 3px;
+    border-radius: 25px;
+    font-family: "Bodoni Moda SC", serif;
+    font-size: 1.6vmax;
+    padding: 2vmin;
+    width: 50vw;
+    text-align: center;
+    color: aliceblue;
+    transition: .25s ease-in-out;
+}
+
+input[type=text]:focus{
+    border: rgb(255, 255, 255) solid 3px;
+}
+
+#secSec div{
+    margin: 1vmax;
+}
+
+img{
+    filter: invert(.25);
+    width: 5vw;
+    height: 5vh;
+    margin-top: 4vh;
+    transition: ease-in-out .25s;
+}
+
+img:hover{
+    cursor: pointer;
+    filter: invert(1);
+}
+
+#secSec p{
+    margin-right: 1vmax;
+}
+
+a{
+    background: none;
+    outline: none;
+    border-radius: 5px;
+    border: white 3px solid;
+    color: white;
+    font-family: "Grey Qo", cursive;
+    font-size: 2vmax;
+    transition: .25s ease-in-out;
+    padding: 1vmax;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+a:hover{
+    transform: translateY(-.25vmax);
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+

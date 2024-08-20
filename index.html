@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@5/dark.css" />
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+            <link rel="stylesheet" href="style.css">
+            <title>Document</title>
+        </head>
+        <body>
+
+            <header id="h">
+                <div>
+                    <h1> <bold style='font-family: "Bodoni Moda SC", serif; font-size: 4vmax;'>My</bold>  <bold style="font-size:8vmax;" id="header-animation">dictionary</bold></h1>
+                    <p>You can search for whatever word you want, but don't go way overboard with it, it has its limits</p>
+                    <input type="text" placeholder="Press 'Enter' to search"/>
+                </div>
+            </header>
+            <section>
+                <div id="secHeader" style="text-align: center;">
+                    <div style="display: flex; flex-direction: row; justify-content: center;">   
+                        <h1>Word</h1> 
+                        <img src="media/speaker-high-volume.svg" alt="speaker-high-volume" />
+                        <h3 style="margin-top: 4vh;">  IPA </h3>    
+                    </div>
+                    
+                    <div id="definitions">
+                    </div>
+                </div>
+                <div id="secSec" style="display: flex; flex-direction: row; padding: 2vmax;">
+                    <div id="Synynoms" style="display: flex; flex-direction: row;">
+                    </div>
+                    <div id="Antonyms" style="display: flex; flex-direction: row;"></div>
+                    </div>
+                    <div id="Other">
+                    </div>
+                </div>
+                <div id="secFooter" >
+                    <a href="#h">Go Back</a>
+                </div>
+            </section>
+
+            
+            <script src="script.js"></script>
+        </body>
+    </html>
